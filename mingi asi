@@ -1,0 +1,17 @@
+/public
+    index.html      ← veebileht (sinister interface + control panel)
+server.js           ← Node.js backend
+posts.json          ← foorumi algpostitused
+package.json        ← sõltuvused + start script
+{
+  "name": "sinister-forum",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+ 
